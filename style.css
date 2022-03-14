@@ -12,8 +12,10 @@ h1, h2, h3, h4, h5, h6 {
 .header {
     display: flex;
     justify-content: space-between;
-    padding: 10px 100px;
-    background-color: #bab286;
+    padding: 0px 100px;
+    background-color: #ffffff;
+    z-index: 1000;
+    height: 62px;
 }
 
 .logo {
@@ -33,16 +35,20 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 18px;
     margin-right: 8px;
     transition: background-color .2s linear;
+
 }
 .nav_link:hover {
     color: #ecbf58;
     background-color: #2c2c2c;
     border-radius: 3px;
+    border-bottom: 2px solid #ecbf58;
+
 }
 
 .intro {
-    background-color: #2c2c2c;
-
+    background: url("assets/intro(фон)(1).png") center no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
 }
 
 .intro_titles {
@@ -110,4 +116,58 @@ h1, h2, h3, h4, h5, h6 {
     padding: 0 100px;
     display: flex;
     align-items: center;
+<<<<<<< HEAD
 }
+=======
+}
+
+.about {
+    display: flex;
+    padding: 30px 50px;
+}
+
+.about_btn {
+    display: inline;
+    background-color: #ecbf58;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 2px;
+}
+
+.about_item {
+    flex: 1 1 0;
+    padding: 40px 15px;
+}
+
+.about_titles h5 {
+    font-size: 24px;
+    color: #ecbf58;
+    margin-bottom: 20px;
+}
+.about_titles h2 {
+    position: relative;
+    font-size: 40px;
+    color: black;
+}
+.about_titles p {
+    margin-top: 60px;
+    font-size: 24px;
+    font-style: italic;
+    color: #b3b3b3;
+}
+
+.about_text p {
+    margin-bottom: 20px;
+}
+
+.about_titles h2:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 60px;
+    min-width: 160px;
+    border: 2px #ecbf58 solid;
+    z-index: 1;
+}
+
+
