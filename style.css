@@ -127,7 +127,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .about_btn {
-    display: inline;
+    display: inline-block;
     background-color: #ecbf58;
     padding: 10px 20px;
     margin-top: 20px;
